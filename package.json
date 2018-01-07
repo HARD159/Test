@@ -1,0 +1,16 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js --debug > build/bundle.js",
+    "dev": "watchify index.js -o build/bundle.js -v "
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^14.5.0",
+    "watchify": "^3.9.0"
+  }
+}
