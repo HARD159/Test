@@ -1,0 +1,1 @@
+const work = "its work beach";
